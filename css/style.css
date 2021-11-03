@@ -1,0 +1,1261 @@
+/* CSS Document */
+body { padding:0px; 
+	margin:0px;
+	background-repeat:repeat-x repeat-y;
+	font-family:calibri; 
+	font-size:14px;
+	color:#666666;
+	}
+#empty {
+	width:1024px; 
+	float:left; 
+	font-family:calibri; 
+	font-size:15px; 
+	margin-top:80px;
+	}
+.h1 { 
+	font-family:calibri; 
+	font-size:20px; 
+	color:#1B6332; 
+	font-weight:600; 
+	}
+.pg1 { font-family:calibri; font-size:20px; color:#CCCC33; font-weight:600;}
+.dres { font-family:calibri; font-size:20px; color:#fff; font-weight:600;}
+.brtlink { 
+font-family:calibri; font-size:20px; color:#1B6332; font-weight:600; text-decoration:none;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.brtlink:hover { font-family:calibri; font-size:20px; color:#A3963E; font-weight:600; text-decoration:none; padding-left:3px;}
+.empty { font-family:calibri; font-size:20px; color:#FF3300; font-weight:600; }
+.online { font-family:calibri; font-size:15px; color:#1B6332; font-weight:600; font-style:italic;}
+.h2 {font-family:raavi; font-size:16px; color:#A3963E; font-weight:600; text-decoration:none }
+.h3 { font-family:calibri; font-size:14px; color:#A3963E; font-weight:400; text-decoration:none;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.h3:hover { font-family:calibri; font-size:14px; color:#1B6332; font-weight:400; text-decoration:none; padding-left:3px;}
+.oleh { font-family:calibri; font-size:13px; color:#CCCC00;}
+.oleh_nm { font-family:calibri; font-size:14px; color:#fff;}
+.feed { font-family:calibri; font-size:24px; color:#CCCC00; font-weight:600; font-style:italic;}
+.feed_name { font-family:calibri; font-size:24px; color:#fff; font-weight:600; font-style:italic;}
+.hr { font-family:calibri; font-size:20px; color:#fff; font-weight:600; font-style:italic;}
+.sekolah {font-family:"myriad Pro"; font-size:33px; font-style:italic; color:#225533;}
+.sekolah_kota {font-family:latha; font-size:34px; color:#225533; font-weight:600; }
+.slogan {font-family:"hobo Std"; font-size:16px; color:#A3963E; }
+.navigasi {font-family:calibri; font-size:18px; color:#FFFFFF; font-weight:600; text-decoration:none; }
+.selengkapnya {font-family:raavi; font-size:16px; color:#A3963E; font-weight:600; text-decoration:none }
+.selengkapnya:hover {font-family:raavi; font-size:16px; color:#1B6332; font-weight:600; text-decoration:none }
+.staff {font-family:calibri;  font-size:14px; color:#A3963E; text-decoration:none; text-align:left; }
+.staff:hover {font-family:calibri; font-size:14px; color:#1B6332; text-decoration:none; text-align:left;}
+.feed_foot{font-family:calibri;  font-size:14px; color:#fff; text-decoration:none; text-align:left; }
+.feed_foot:hover {font-family:calibri; font-size:14px; color:#CCCC00; text-decoration:none; text-align:left;}
+.site {font-family:raavi; font-size:16px; color:#666666; text-decoration:none; }
+.site:hover {font-family:raavi; font-size:16px; color:#00CC00; text-decoration:none; }
+.copy {font-family:raavi; font-size:13px; color:#797e7b; text-decoration:none;}
+.bar {font-family:raavi; font-size:12px; color:#797e7b; text-decoration:none;}
+.barname {font-family:raavi; font-size:12px; color:#00FF66; text-decoration:none;}
+/***** navigasi menu ****/
+.nav {font-family:calibri; font-size:18px; color:#FFFFFF; font-weight:300; text-decoration:none; }
+.nav:hover {font-family:calibri; font-size:18px; color:#A3963E; font-weight:300; text-decoration:none; }
+.link {font-family:calibri; font-size:18px; color:#A3963E; font-weight:300; text-decoration:none; 
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.link:hover {font-family:calibri; font-size:18px; color:#CCCC00; font-weight:300; text-decoration:none; padding-left:3px;}
+.pg { font-family:calibri; font-size:50px; color:#1B6332; font-weight:600; text-decoration:none;}
+.pg:hover { font-family:calibri; font-size:50px; color:#A3963E; font-weight:600; text-decoration:none;}
+/** navigasi ***/
+/*******************************************header*****************************************/
+#repeat_head {
+	width:100%;
+	height:7px;
+	background:#1B6332;
+	}
+#bg_head {
+	width:1024px;
+	height:158px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+#head {
+	width:1024px;
+	height:152px;
+	float:none;
+	}
+#logo {
+	width:120px;
+	height:151px;
+	float:left;
+	background:url(../image/logoadisa.jpeg);
+	}
+#h_jeda {
+	float:right; width:850px; height:30px; }
+#bg_sekolah {
+	width:904px;
+	height:100px;
+	float:left;
+	}
+#sekolah {
+	width:573px;
+	float:left;
+	text-align:left;
+	}
+#kota {
+	width:200px;
+	float:left;
+	text-align:left;
+	margin-top:-7px;
+	}
+#slogan {
+	width:600px;
+	float:left;
+	text-align:left;
+	margin-top:-5px;
+	}
+#bg_sosial {
+	width:95px;
+	height:25px;
+	float:right;
+	}
+#gog {
+	width:25px;
+	height:25px;
+	background:url(../image/go1.png);
+	float:left;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+#gog:hover {
+	width:25px;
+	height:25px;
+	background:url(../image/go2.png);
+	float:left;
+	margin-top:-3px;
+	}
+#fb {
+	width:25px;
+	height:25px;
+	background:url(../image/fb1.png);
+	float:left;
+	margin-left:10px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+#fb:hover {
+	width:25px;
+	height:25px;
+	background:url(../image/fb2.png);
+	float:left;
+	margin-left:10px;
+	margin-top:-3px;
+	}
+#twet {
+	width:25px;
+	height:25px;
+	background:url(../image/tw1.png);
+	float:left;
+	margin-left:10px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+#twet:hover {
+	width:25px;
+	height:25px;
+	background:url(../image/tw2.png);
+	float:left;
+	margin-left:10px;
+	margin-top:-3px;
+	}
+#bg_tanggal {
+	width:200px;
+	height:25px;
+	float:right;
+	text-align:right;
+	margin-top:-5px;
+	}
+/*******************************************************************navigasi area***************************************/
+#bg_nav {	
+	width:904px;
+	height:52px;
+	float:left;
+	background:url(../image/bg_nav.png);
+	}
+#repeat_nav {
+	width:100%;
+	height:7px;
+	float:left;
+	background:#1B6332;
+	}
+
+
+	
+	
+/******end area navigasi******/
+#nav {
+	background:;	
+	width:850px;
+	height:30px;
+	float:right;
+	margin-top:20px;
+	margin-right:25px;
+	}
+#nav_buttom {
+	width:85px;
+	height:30px;
+	float:left;
+	text-align:center;
+	background:#1B6332;
+	}
+#nav_buttom:hover {
+	width:85px;
+	height:30px;
+	float:left;
+	text-align:center;
+	background:#A3963E;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: opacity 0.5s linear;
+	}
+/****** slider area *****/
+#img_slider {
+	position:relative;
+	height:300px;
+	width:1024px;
+	}
+
+/***************************************************************content area **************************************/
+#cn_index {
+	width:1024px;
+	height:1850px;
+	margin-left:auto;
+	margin-right:auto;
+	background:;
+	}
+#cn_guru {
+	width:1024px;
+	height:800px;
+	margin-left:auto;
+	margin-right:auto;
+	background:;
+	}
+#cn_profil {
+	width:1024px;
+	height:800px;
+	margin-left:auto;
+	margin-right:auto;
+	background:;
+	}
+#cn_berita {
+	width:1024px;
+	height:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	background:;
+	}
+#cn_search {
+	width:1024px;
+	height:300px;
+	margin-left:auto;
+	margin-right:auto;		
+	background:;
+	}
+#cn_data{
+	width:1024px;
+	height:700px;
+	margin-left:auto;
+	margin-right:auto;
+	background:;
+	}
+#sidebar {
+	width:1024px;
+	height:500px;
+	float:left;
+	} 
+/**left*/
+#sidebar_left {
+	width:290px;
+	height:500px;
+	float:left;
+	}
+#h1 {
+	height:35px;
+	}
+#both {
+	height:20px;
+	}
+#bts {
+	background:url(../image/grs1.png);
+	height:12px;
+	}
+#bts_link {
+	background:url(../image/grs1.png);
+	height:12px;
+	}
+#heading {
+	width:290px;
+	height:31px;
+	background:url(../image/head.png);
+	}
+#judul {
+	width:290px;
+	height:17px;
+	text-align:left;
+	}
+#tgl {
+	width:290px;
+	height:17px;
+	text-align:left;
+	}
+#isi {
+	width:290px;
+	text-align:left;
+	}
+#link_prof {
+	width:290px;
+	height:300px;
+	text-align:left;
+	}
+#selngkapnya {
+	height:20px;
+	text-align:left;
+	text-decoration:none;
+	padding:20px;
+	}
+/**sidebar center**/
+#sidebar_center {
+	width:290px;
+	height:500px;
+	float:left;
+	margin-left:75px;
+	}
+#selngkapnya_c {
+	height:20px;
+	text-align:left;
+	text-decoration:none;
+	padding:35px;
+	}
+/** sidebar right **/
+#sidebar_right {
+	width:290px;
+	height:500px;
+	float:right;
+	}
+/*** staff area ***/
+#pembatas {
+	background:url(../image/grs_bts.png);
+	width:1024px;
+	height:15px;
+	float:left;
+	margin-top:20px;
+	}
+#pem {
+	width:1024px;
+	height:30px;
+	float:left;
+	}
+
+#text_staff {
+	width:1024px;
+	text-align:center;
+	float:left;
+	}
+#text_bprof {
+	width:700px;
+	text-align:center;
+	margin-top:20px;
+	float:right;
+	text-align:left;
+	}
+#head_bprof {
+	width:700px;
+	}
+#img_bprof {
+	width:290px;
+	height:31px;
+	background:url(../image/head.png);
+	}
+#pem_bprof{
+	width:700px;
+	height:10px;
+	}
+#head_staff {
+	width:1024px;
+	float:left;
+	}
+#img_head {
+	width:290px;
+	height:31px;
+	background:url(../image/head.png);
+	float:left;
+	margin-left:365px;
+	margin-top:10px;
+	}
+#bg_staff {
+	width:1024px;
+	height:185px;
+	float:left;
+	background:#fff;
+	}
+#staff {
+	width:147px;
+	height:170px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	}
+#foto_staff {
+	width:147px;
+	height:93px;
+	float:left;
+	}
+#nama_staff {
+	width:147px;
+	float:left;
+	margin-top:5px;
+	text-align:left;
+	}
+#jab_staff {
+	width:147px;
+	float:left;
+	margin-top:5px;
+	font-family:calibri;
+	font-size:12px;
+	text-align:left;
+	color:#000000;
+	}
+#ajar_staff {
+	width:147px;
+	float:left;
+	margin-top:5px;
+	font-family:calibri;
+	font-size:12px;
+	text-align:left;
+	color:#666666;
+	}
+#selngkapnya_staff {
+	height:20px;
+	width:1024px;
+	text-align:left;
+	text-decoration:none;
+	float:left;
+	}
+/***profil page area **/
+#ats_pro  {
+	width:1024px;
+	height:800px;
+	float:left;
+	}
+#bagian_pro  {
+	width:700px;
+	height:900px;
+	float:right;
+	}
+#text_pro  {
+	width:700px;
+	position:relative;
+	text-align:justify;
+	}
+#bwh_pro  {
+	width:1024px;
+	float:left;
+	margin-top:20px;
+	}
+#menu_pro  {
+	width:290px;
+	height:900px;
+	float:left;
+	}
+#link_pro {
+	width:290px;
+	height:15px;
+	text-align:left;
+	margin-top:10px;
+	}
+
+/**** sebagian galeri ******/
+#gal_index {
+	width:1024px;
+	height:300px;
+	float:left;
+	background:#fff;
+	}
+#gal_laman {
+	width:1024px;
+	height:1000px;
+	float:left;
+	}
+#gal{
+	width:290px;
+	height:300px;
+	float:left;
+	margin-left:37px;
+	margin-top:20px;
+	}
+#gal_img{
+	width:290px;
+	height:250px;
+	float:left;
+	}
+#gal_des {
+	width:290px;
+	text-align:center;
+	}
+/** maap area **/
+#maap {
+	width:100px;
+	height:280px;
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+	}
+/****************************************************************foot area*****************************************/
+#bg_foot {
+	background:;
+	width:100%;
+	height:350px;
+	}
+#foot_dasar {
+	background:url(../image/foot.png);
+	width:1024px;
+	height:280px;
+	}
+#feed{
+	width:290px;
+	height:240px;
+	float:left;
+	margin-left:37px;
+	margin-top:20px;
+	}
+#feed_art{
+	width:290px;
+	height:240px;
+	float:right;
+	margin-top:20px;
+	margin-right:40px;
+	}
+#feed_jud {
+	width:290px;
+	float:left;
+	text-align:left;
+	}
+#kg {
+	width:290px;
+	height:65px;
+	float:left;
+	margin-top:5px;
+	}
+#kal {
+	width:70px;
+	height:50px;
+	float:left;
+	background:#fff;
+	}
+#kal_angka {
+	width:70px;
+	float:left;
+	background:#CCCC00;
+	}
+#kal_des {
+	width:210px;
+	float:left;
+	margin-left:10px;
+	text-align:left;
+	}
+#kal_tgl {
+	width:70px;
+	float:left;
+	margin-top:2px;
+	}
+#berita_feed {
+	width:290px;
+	float:left;
+	margin-top:3px;
+	}
+#berita_jud_feed {
+	width:290px;
+	float:left;
+	margin-top:5px;
+	}
+#oleh_feed {
+	width:40px;
+	float:left;
+	text-align:left;
+	}
+#oleh_nm_feed {
+	width:240px;
+	float:left;
+	text-align:left;
+	}
+#tgl_brt_feed {
+	width:50px;
+	float:left;
+	text-align:left;
+	}
+/** site maap area **/
+#dasar_site {
+	width:1024px;
+	height:15px;
+	margin-top:10px;
+	}
+#bg_site {
+	width:570px;
+	height:15px;
+	float:left;
+	margin-left:215px;
+	}
+#site {
+	float:left;
+	margin-left:8px;
+	}
+/** copyright area **/
+#dasar_copy {
+	width:1024px;
+	height:80px;
+	margin-top:20px;
+	}
+#bg_copy {
+	width:500px;
+	height:30px;
+	float:left;
+	}
+#bg_online{
+	width:500px;
+	height:80px;
+	float:right;
+	}
+#copy {
+	width:500px;
+	float:left;
+	text-align:left;
+	}
+#grs_online {
+	width:500px;
+	height:10px;
+	background:url(../image/grs_online.png);
+	float:left;
+	}
+#ol {
+	width:500px;
+	float:left;
+	text-align:left;
+	}
+#bg_ym {
+	width:500px;
+	float:left;
+	text-align:left;
+	margin-top:7px;
+	}
+#admin_ym {
+	width:250px;
+	height:30px;
+	float:left;
+	}
+#ym_name {
+	width:200px;
+	height:30px;
+	float:right;
+	}
+#ym {
+	width:30px;
+	height:30px;
+	background:;
+	float:left;
+	}
+/**** berita page area ****/
+
+#head_berita {
+	width:1024px;
+	height:20px;
+	}
+#bg_berita_awl {
+	width:1024px;
+	height:1000px;
+	float:left;
+	margin-top:25px;
+	}
+#heading_page {
+	width:100px;
+	float:left;
+	margin-left:20px;
+	text-align:left;
+	}
+#heading_data {
+	width:500px;
+	float:left;
+	margin-left:20px;
+	text-align:left;
+	}
+#page_bts {
+	background:url(../image/grs_bts.png);
+	width:1024px;
+	height:15px;
+	float:left;
+	}
+#dasaran_berita {
+	width:850px;
+	height:200px;
+	margin-left:20px;
+	}
+#dasaran_textberita {
+	width:850px;
+	height:120px;
+	float:left;
+	margin-top:10px;
+	}
+#judul_berita {
+	width:850px;
+	float:left;
+	text-align:left;
+	}
+#grs_bwh_judul {
+	width:850px;
+	height:10px;
+	float:left;
+	background:url(../image/grs1.png);
+	}
+#bar_berita {
+	width:320px;
+	height:20px;
+	float:left;
+	background:#fff;
+	margin-top:10px;
+	border:1px solid #A3963E;
+	}
+#icomm {
+	width:15px;
+	height:15px;
+	float:left;
+	margin-top:2px;
+	background:url(../image/comment.png);
+	}
+#textbar {
+	width:330px;
+	height:20px;
+	float:left;
+	text-align:left;
+	margin-left:20px;
+	}
+#textberita{
+	width:650px;
+	float:right;
+	text-align:left;
+	}
+#imgberita{
+	width:150px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	background:#fff;
+	}
+#detail_area {
+	width:1024px;
+	height:600px;
+	float:left;
+	}
+#judul_detai {
+	width:950px;
+	float:left;
+	text-align:left;
+	margin-left:50px;
+	}
+
+#grs_detail {
+	width:950px;
+	height:10px;
+	float:left;
+	margin-left:40px;
+	background:url(../image/grs1.png);
+	}
+#imgberitadetail{
+	width:300px;
+	height:250px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+
+	}
+#cn_detail {
+	width:1024px;
+	min-height:1000px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	background:;
+	}
+#text_detail {
+	width:950px;
+	height:10px;
+	float:left;
+	margin-left:40px;
+	}
+#isi_detail {
+	width:950px;
+	float:left;
+	margin-left:40px;
+	margin-top:20px;
+	}
+#detail1{
+	width:600px;
+	height:250px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	text-align:justify;
+	}
+#detail2{
+	width:950px;
+	height:500px;
+	float:left;
+	margin-top:10px;
+	text-align:justify;
+	}
+#bg_detail {
+	width:1024px;
+	height:900px;
+	float:left;
+	}
+#paging {
+	width:1024px;
+	height:30px;
+	float:left;
+	text-align:center;
+	}
+/** info rea **/
+#dasaran_info {
+	width:900px;
+	height:200px;
+	float:left;
+	margin-left:50px;
+	}
+#info {
+	width:900px;
+	height:200px;
+	float:left;
+	}
+#jud_info {
+	width:850px;
+	float:left;
+	text-align:left;
+	margin-left:20px;
+	}
+#bg_info {
+	width:1024px;
+	height:700px;
+	float:left;
+	}
+#img_info {
+	width:200px;
+	height:150px;
+	float:left;
+	background:url(../image/td.jpg);
+	}
+#grs_info {
+	width:850px;
+	height:15px;
+	float:left;
+	margin-left:10px;
+	margin-top:-10px;
+	background:url(../image/grs1.png);
+	}
+#tgl_info {
+	width:600px;
+	float:left;
+	text-align:left;
+	margin-left:20px;
+	text-align:left;
+	}
+#des_info {
+	width:600px;
+	float:left;
+	text-align:left;
+	margin-left:80px;
+	text-align:left;
+	}
+/** kontak area **/
+#cn_kontak {
+	width:1024px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	background:;
+	}
+#bgadres {
+	width:300px;
+	height:600px;
+	float:left;
+	}
+#nmadres {
+	width:300px;
+	height:40px;
+	float:left;
+	background:#95B7A0;
+	}
+#hadres {
+	width:250px;
+	float:left;
+	text-align:left;
+	margin-left:20px;
+	margin-top:6px;
+	}
+#icdres {
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../image/icdres.png);
+	}
+#ictelp {
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../image/ictelp.png);
+	}
+#icfax {
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../image/icfax.png);
+	}
+#icweb {
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../image/icweb.png);
+	}
+#icmail {
+	width:20px;
+	height:20px;
+	float:left;
+	background:url(../image/icmail.png);
+	}
+#bg_ic {
+	width:300px;
+	height:20px;
+	float:left;
+	margin-top:15px;
+	}
+#grs_ic {
+	width:300px;
+	float:left;
+	background:url(../image/grs1.png);
+	height:12px;
+	}
+#tul_ic {
+	width:270px;
+	float:right;
+	text-align:left;
+	}
+#bgform {
+	width:670px;
+	height:600px;
+	float:left;
+	margin-left:50px;
+	}
+#headform {
+	width:670px;
+	float:left;
+	text-align:left;
+	}
+#grs_form {
+	background:url(../image/grs_bts.png);
+	width:670px;
+	height:15px;
+	float:left;
+	margin-top:10px;
+	}
+#areaform {
+	width:640px;
+	height:550px;
+	float:left;
+	background:#FCFCFC;
+	margin-left:10px;
+	margin-top:10px;
+	}
+#arform {
+	width:600px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	}
+#trform {
+	width:600px;
+	height:200px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	}
+#textform {
+	width:600px;
+	float:left;
+	text-align:left;
+	}
+#divform {
+	width:600px;
+	float:left;
+	text-align:left;
+	margin-top:5px;
+	}
+.textform {font-family:raavi; font-size:20px; color:#666666; }
+.kirim {font-family:raavi; font-size:20px; color:#fff; font-weight:600;}
+.ex {font-family:calibri; font-style:italic; font-size:13px; }
+.textarea {font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#666666; font-style:italic;}
+#form1 {
+	width:300px;
+	height:30px;
+	float:left;
+	border:1px #9ABAA5 solid;
+	}
+#form1:hover{
+	width:300px;
+	height:30px;
+	float:left;
+	background:#F4F4F4;
+	border:1px #9ABAA5 solid;
+	}
+#form2 {
+	width:500px;
+	height:130px;
+	float:left;
+	border:1px #9ABAA5 solid;
+	}
+#form2:hover {
+	width:500px;
+	height:130px;
+	float:left;
+	border:1px #9ABAA5 solid;
+	background:#F4F4F4;
+	}
+#bgkirim {
+	width:600px;
+	float:left;
+	text-align:left;
+	margin-top:20px;
+	}
+
+
+#kirim {
+	width:70px;
+	height:40px;
+	float:left;
+	background-color:#699574;
+	border: 1px solid #e1e5e9;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+#kirim:hover {
+	width:70px;
+	height:40px;
+	float:left;
+	background-color:#B0C8B6;
+	border: 1px solid #e1e5e9;
+	cursor:pointer;
+	}
+#reset {
+	width:70px;
+	height:40px;
+	float:left;
+	background-color:#699574;
+	border: 1px solid #e1e5e9;
+	cursor:pointer;
+	margin-left:20px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	}
+#reset:hover {
+	width:70px;
+	height:40px;
+	float:left;
+	margin-left:20px;
+	background-color:#B0C8B6;
+	border: 1px solid #e1e5e9;
+	cursor:pointer
+	}
+#data_area {
+	width:1024px;
+	height:100px;
+	float:left;
+	margin-top:10px;
+	}
+#pencarian_area {
+	width:1024px;
+	height:200px;
+	float:left;
+	}
+#pencarian_form {
+	width:1024px;
+	height:40px;
+	float:left;
+	background:#1B6332;
+	}
+#cari {
+	width:60px;
+	height:30px;
+	float:left;
+	background-color:#699574;
+	border: 1px solid #e1e5e9;
+	margin-left:20px;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	margin-top:5px;
+	}
+#cari:hover {
+	width:60px;
+	height:30px;
+	float:left;
+	background-color:#B0C8B6;
+	border: 1px solid #e1e5e9;
+	cursor:pointer;
+	margin-top:5px;
+	}
+#formcr {
+	width:300px;
+	height:25px;
+	float:left;
+	border:1px #A8C3B1 solid;
+	margin-left:20px;
+	margin-top:5px;
+	}
+#formcr:hover{
+	width:300px;
+	height:25px;
+	float:left;
+	background:#A8C3B1;
+	border:1px #fff solid;
+	margin-left:20px;
+	margin-top:5px;
+	}
+#pencarian_echo {
+	width:1024px;
+	height:40px;
+	float:left;
+	margin-top:10px;
+	}
+#pencarian_echo2 {
+	width:1024px;
+	height:100px;
+	float:left;
+	margin-top:10px;
+	}
+#head_echo {
+	width:1024px;
+	height:30px;
+	float:left;
+	background:#1B6131;
+	border:1px #1B6332 solid;
+	}
+#head_echo2 {
+	width:1024px;
+	height:40px;
+	float:left;
+	border:1px #1B6332 solid;
+	}
+#head_echoats {
+	width:150px;
+	height:30px;
+	float:left;
+	text-align:left;
+	margin-left:10px;
+	font-family:calibri;
+	font-size:20px;
+	color:#fff;
+	}
+#head_echoats2 {
+	width:150px;
+	float:left;
+	height:40px;
+	text-align:center;
+	margin-left:5px;
+	color:#666666;
+	}
+#head_echoats3 {
+	width:190px;
+	float:left;
+	height:40px;
+	text-align:center;
+	margin-left:5px;
+	color:#666666;
+	}
+#slice {
+	width:1px;
+	height:40px;
+	float:left;
+	background:#1B6332;
+	}
+/***************** ================================ HALAMAN GURU AREA ==================================== ************************/
+#laman_guru {
+	width:1024px;
+	height:300px;
+	float:left;
+	margin-top:10px;
+	}
+#guru {
+	width:1024px;
+	height:215px;
+	float:left;
+	margin-top:20px;
+	}
+#img_guru {
+	width:250px;
+	height:200px;
+	float:left;
+	background:url(../image/td.jpg);
+	margin-left:30px;
+	}
+#dasaras {
+	width:700px;
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+	text-align:left;
+	}
+#as {
+	width:100px;
+	float:left;
+	text-align:left;
+	}
+#ans {
+	width:600px;
+	float:left;
+	text-align:left;
+	}
+#grs_as {
+	width:1024px;
+	height:15px;
+	float:left;
+	background:url(../image/grs1.png);
+	}
+#gurubwh {
+	width:1024px;
+	height:400px;
+	float:left;
+	background:#fff;
+	}
